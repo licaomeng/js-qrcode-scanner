@@ -15,6 +15,23 @@ STEP 3: Command `npm start` on root path;
 
 STEP 4: Access `localhost:9000` with your browser, then you can see the same scene as demo.
 
+Function Tunning
+=======
+To improve the recognition efficiency, there is an additional special image processing that desaturate a color.
+You can uncomment below code
+
+```
+<!--<canvas id="qr-canvas" width='300px' height="300px"></canvas>-->
+```
+and comment below code
+
+```
+<canvas id="qr-canvas" width='300px' height="300px" style="display: none"></canvas>
+```
+
+to see image processing result as below:
+![](https://github.com/licaomeng/js-qrcode-scanner/blob/master/desaturate_a_color.jpg)
+
 
 License
 =======
